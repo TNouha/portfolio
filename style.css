@@ -20,6 +20,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 p{
     color: black;
@@ -67,7 +68,7 @@ img{
 #one .cta:hover{
     color: white;
     background-color: black;
-}
+} 
 
 .brand h1{
     font-size: 3rem;
@@ -242,12 +243,10 @@ img{
     width: fit-content;
     font-size: 4rem;
     position: relative;
-    color: rgb(0, 0, 0);
-    animation: text-reveal 1s ease forwards;
-    animation-delay: 1.5s;
+    color: white;
 }
 #one h1:nth-child(1){
-    animation-delay: 1.5s;
+    animation-delay: 1.5;
 }
 
 #one h1:nth-child(2){
